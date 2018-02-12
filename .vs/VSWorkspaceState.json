@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\SupportFiles"
+    "\\SupportFiles",
+    "\\SupportFiles\\Documents"
   ],
-  "SelectedNode": "\\SupportFiles\\SupportFiles.csproj",
+  "SelectedNode": "\\SupportFiles\\Documents",
   "PreviewInSolutionExplorer": false
 }
