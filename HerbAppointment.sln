@@ -3,7 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SupportFiles", "SupportFiles\SupportFiles.csproj", "{9CE35ED9-726C-41CE-9F4A-D33BD75BB63C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SupportFiles", "SupportFiles\SupportFiles.csproj", "{9CE35ED9-726C-41CE-9F4A-D33BD75BB63C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnyaSpa.Sql", "AnyaSpa.Sql\AnyaSpa.Sql.csproj", "{A6607ADC-6C37-45BE-A0D4-72609FAC18ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnyaSpa.Dal", "AnyaSpa.Dal\AnyaSpa.Dal.csproj", "{E9BAF126-36DD-486A-8604-8D35FD8E5E5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnyaSpa.Common", "AnyaSpa.Common\AnyaSpa.Common.csproj", "{C76045AD-E315-492C-9CCF-A011EF6A6210}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnyaSpa.Main", "AnyaSpa.Main\AnyaSpa.Main.csproj", "{75A8FA55-0B14-474A-A3C2-42101DF1351E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnyaSpa.Web", "AnyaSpa.Web\AnyaSpa.Web.csproj", "{A49D3ECA-3685-401C-86AF-C1502060AA97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnyaSpa.ClientTest", "AnyaSpa.ClientTest\AnyaSpa.ClientTest.csproj", "{8D35D814-536A-4B8C-A0BD-CB87C21551E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +27,30 @@ Global
 		{9CE35ED9-726C-41CE-9F4A-D33BD75BB63C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CE35ED9-726C-41CE-9F4A-D33BD75BB63C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CE35ED9-726C-41CE-9F4A-D33BD75BB63C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6607ADC-6C37-45BE-A0D4-72609FAC18ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6607ADC-6C37-45BE-A0D4-72609FAC18ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6607ADC-6C37-45BE-A0D4-72609FAC18ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6607ADC-6C37-45BE-A0D4-72609FAC18ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9BAF126-36DD-486A-8604-8D35FD8E5E5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9BAF126-36DD-486A-8604-8D35FD8E5E5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9BAF126-36DD-486A-8604-8D35FD8E5E5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9BAF126-36DD-486A-8604-8D35FD8E5E5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C76045AD-E315-492C-9CCF-A011EF6A6210}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C76045AD-E315-492C-9CCF-A011EF6A6210}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C76045AD-E315-492C-9CCF-A011EF6A6210}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C76045AD-E315-492C-9CCF-A011EF6A6210}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75A8FA55-0B14-474A-A3C2-42101DF1351E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75A8FA55-0B14-474A-A3C2-42101DF1351E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75A8FA55-0B14-474A-A3C2-42101DF1351E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75A8FA55-0B14-474A-A3C2-42101DF1351E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A49D3ECA-3685-401C-86AF-C1502060AA97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A49D3ECA-3685-401C-86AF-C1502060AA97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A49D3ECA-3685-401C-86AF-C1502060AA97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A49D3ECA-3685-401C-86AF-C1502060AA97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D35D814-536A-4B8C-A0BD-CB87C21551E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D35D814-536A-4B8C-A0BD-CB87C21551E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D35D814-536A-4B8C-A0BD-CB87C21551E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D35D814-536A-4B8C-A0BD-CB87C21551E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
