@@ -1,6 +1,8 @@
-﻿namespace AnyaSpa.Dal.Models
+﻿using AnyaSpa.Infrastructure.Entities;
+
+namespace AnyaSpa.Dal.Models
 {
-    public class RoleDto
+    public class RoleDto : IDto
     {
         public int Id { get; set; }
         public string Name { get; set; }

@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
-using AnyaSpa.Dal.Entities;
+using AnyaSpa.Infrastructure.Entities;
 
 namespace AnyaSpa.Dal.Models
 {
-    public class UserDto
+    public class UserDto : IDto
     {
         public int Id { get; set; }
         public string DisplayName { get; set; }
