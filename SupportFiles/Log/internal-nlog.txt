@@ -1,0 +1,121 @@
+2018-02-21 17:10:52.6718 Info Message Template Auto Format enabled
+2018-02-21 17:10:52.7840 Info Adding target File Target[allfile]
+2018-02-21 17:10:52.8849 Error Error parsing layout aspnet-request-url will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'aspnet-request-url'. Is NLog.Web not included?
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-02-21 17:10:52.8899 Error Error parsing layout aspnet-mvc-action will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'aspnet-mvc-action'. Is NLog.Web not included?
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-02-21 17:10:52.8899 Info Adding target File Target[ownFile-web]
+2018-02-21 17:10:52.8899 Info Adding target Null Target[blackhole]
+2018-02-21 17:10:52.8899 Info Configured from an XML element in D:\Sample\HerbAppointment\AnyaSpa.ClientTest\bin\Debug\netcoreapp2.0\NLog.config...
+2018-02-21 17:10:52.9148 Info Found 53 configuration items
+2018-02-21 17:10:52.9247 Info Found 53 configuration items
+2018-02-21 17:12:30.8100 Info Message Template Auto Format enabled
+2018-02-21 17:12:30.8816 Info Adding target File Target[allfile]
+2018-02-21 17:12:30.9263 Error Error parsing layout aspnet-request-url will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'aspnet-request-url'. Is NLog.Web not included?
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-02-21 17:12:30.9263 Error Error parsing layout aspnet-mvc-action will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'aspnet-mvc-action'. Is NLog.Web not included?
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-02-21 17:12:30.9263 Info Adding target File Target[ownFile-web]
+2018-02-21 17:12:30.9263 Info Adding target Null Target[blackhole]
+2018-02-21 17:12:30.9397 Info Configured from an XML element in D:\Sample\HerbAppointment\AnyaSpa.ClientTest\bin\Debug\netcoreapp2.0\NLog.config...
+2018-02-21 17:12:30.9522 Info Found 53 configuration items
+2018-02-21 17:12:30.9522 Info Found 53 configuration items
+2018-02-21 17:13:38.2507 Info Message Template Auto Format enabled
+2018-02-21 17:13:38.3432 Info Adding target File Target[allfile]
+2018-02-21 17:13:38.3989 Error Error parsing layout aspnet-request-url will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'aspnet-request-url'. Is NLog.Web not included?
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-02-21 17:13:38.3989 Error Error parsing layout aspnet-mvc-action will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'aspnet-mvc-action'. Is NLog.Web not included?
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-02-21 17:13:38.4052 Info Adding target File Target[ownFile-web]
+2018-02-21 17:13:38.4052 Info Adding target Null Target[blackhole]
+2018-02-21 17:13:38.4052 Info Configured from an XML element in D:\Sample\HerbAppointment\AnyaSpa.ClientTest\bin\Debug\netcoreapp2.0\NLog.config...
+2018-02-21 17:13:38.4244 Info Found 53 configuration items
+2018-02-21 17:13:38.4244 Info Found 53 configuration items
+2018-02-21 17:14:39.2276 Info Message Template Auto Format enabled
+2018-02-21 17:14:39.2997 Info Adding target File Target[allfile]
+2018-02-21 17:14:39.3405 Error Error parsing layout aspnet-request-url will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'aspnet-request-url'. Is NLog.Web not included?
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-02-21 17:14:39.3432 Error Error parsing layout aspnet-mvc-action will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'aspnet-mvc-action'. Is NLog.Web not included?
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-02-21 17:14:39.3432 Info Adding target File Target[ownFile-web]
+2018-02-21 17:14:39.3432 Info Adding target Null Target[blackhole]
+2018-02-21 17:14:39.3432 Info Configured from an XML element in D:\Sample\HerbAppointment\AnyaSpa.ClientTest\bin\Debug\netcoreapp2.0\NLog.config...
+2018-02-21 17:14:39.3699 Info Found 53 configuration items
+2018-02-21 17:14:39.3794 Info Found 53 configuration items
+2018-02-21 17:15:31.6771 Info Message Template Auto Format enabled
+2018-02-21 17:15:31.7511 Info Adding target File Target[allfile]
+2018-02-21 17:15:31.7912 Error Error parsing layout aspnet-request-url will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'aspnet-request-url'. Is NLog.Web not included?
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-02-21 17:15:31.7958 Error Error parsing layout aspnet-mvc-action will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'aspnet-mvc-action'. Is NLog.Web not included?
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-02-21 17:15:31.7958 Info Adding target File Target[ownFile-web]
+2018-02-21 17:15:31.7958 Info Adding target Null Target[blackhole]
+2018-02-21 17:15:31.7958 Info Configured from an XML element in D:\Sample\HerbAppointment\AnyaSpa.ClientTest\bin\Debug\netcoreapp2.0\NLog.config...
+2018-02-21 17:15:31.8186 Info Found 53 configuration items
+2018-02-21 17:15:31.8307 Info Found 53 configuration items
+2018-02-21 17:16:36.8465 Info Message Template Auto Format enabled
+2018-02-21 17:16:36.9460 Info Adding target File Target[allfile]
+2018-02-21 17:16:36.9891 Error Error parsing layout aspnet-request-url will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'aspnet-request-url'. Is NLog.Web not included?
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-02-21 17:16:36.9891 Error Error parsing layout aspnet-mvc-action will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'aspnet-mvc-action'. Is NLog.Web not included?
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-02-21 17:16:36.9891 Info Adding target File Target[ownFile-web]
+2018-02-21 17:16:36.9891 Info Adding target Null Target[blackhole]
+2018-02-21 17:16:36.9998 Info Configured from an XML element in D:\Sample\HerbAppointment\AnyaSpa.ClientTest\bin\Debug\netcoreapp2.0\NLog.config...
+2018-02-21 17:16:36.9998 Info Found 53 configuration items
+2018-02-21 17:16:37.0224 Info Found 53 configuration items
+2018-02-21 17:17:12.6085 Info Message Template Auto Format enabled
+2018-02-21 17:17:12.6885 Info Adding target File Target[allfile]
+2018-02-21 17:17:12.7291 Error Error parsing layout aspnet-request-url will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'aspnet-request-url'. Is NLog.Web not included?
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-02-21 17:17:12.7330 Error Error parsing layout aspnet-mvc-action will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'aspnet-mvc-action'. Is NLog.Web not included?
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-02-21 17:17:12.7330 Info Adding target File Target[ownFile-web]
+2018-02-21 17:17:12.7330 Info Adding target Null Target[blackhole]
+2018-02-21 17:17:12.7330 Info Configured from an XML element in D:\Sample\HerbAppointment\AnyaSpa.ClientTest\bin\Debug\netcoreapp2.0\NLog.config...
+2018-02-21 17:17:12.7558 Info Found 53 configuration items
+2018-02-21 17:17:12.7656 Info Found 53 configuration items
+2018-02-21 17:19:27.1365 Info Message Template Auto Format enabled
+2018-02-21 17:19:27.2521 Error Error parsing layout aspnet-request-url will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'aspnet-request-url'. Is NLog.Web not included?
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-02-21 17:19:27.2521 Error Error parsing layout aspnet-mvc-action will be ignored. Exception: System.ArgumentException: LayoutRenderer cannot be found: 'aspnet-mvc-action'. Is NLog.Web not included?
+   at NLog.Config.Factory`2.CreateInstance(String name)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(ConfigurationItemFactory configurationItemFactory, String name)
+2018-02-21 17:19:27.2521 Info Adding target File Target[ownFile-web]
+2018-02-21 17:19:27.2521 Info Adding target Null Target[blackhole]
+2018-02-21 17:19:27.2666 Error Parsing configuration from D:\Sample\HerbAppointment\AnyaSpa.ClientTest\bin\Debug\netcoreapp2.0\NLog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing D:\Sample\HerbAppointment\AnyaSpa.ClientTest\bin\Debug\netcoreapp2.0\NLog.config.  ---> NLog.NLogConfigurationException: Target allfile not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-21 17:19:27.2666 Warn Failed loading config from D:\Sample\HerbAppointment\AnyaSpa.ClientTest\bin\Debug\netcoreapp2.0\NLog.config. Invalid XML?
+2018-02-21 17:19:27.2666 Info Found 31 configuration items
+2018-02-21 17:19:27.2845 Info Found 31 configuration items
+2018-02-21 17:20:44.4265 Info Message Template Auto Format enabled
+2018-02-21 17:20:44.4992 Info Adding target File Target[allfile]
+2018-02-21 17:20:44.4992 Info Adding target Null Target[blackhole]
+2018-02-21 17:20:44.5516 Error Parsing configuration from D:\Sample\HerbAppointment\AnyaSpa.ClientTest\bin\Debug\netcoreapp2.0\NLog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing D:\Sample\HerbAppointment\AnyaSpa.ClientTest\bin\Debug\netcoreapp2.0\NLog.config.  ---> NLog.NLogConfigurationException: Target ownFile-web not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-02-21 17:20:44.5516 Warn Failed loading config from D:\Sample\HerbAppointment\AnyaSpa.ClientTest\bin\Debug\netcoreapp2.0\NLog.config. Invalid XML?
+2018-02-21 17:20:44.5617 Info Found 32 configuration items
+2018-02-21 17:20:44.5617 Info Found 32 configuration items

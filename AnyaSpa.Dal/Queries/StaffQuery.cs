@@ -34,7 +34,7 @@ namespace AnyaSpa.Dal.Queries
 
         public IEnumerable<Staff> GetStaffs()
         {
-            const string sql = @"SELECT * FROM [Security].[Staff]";
+            const string sql = @"SELECT * FROM [Staffs]";
 
             using (var connection = _connectionFactory.OpenAnyaSpaConnection())
             {
