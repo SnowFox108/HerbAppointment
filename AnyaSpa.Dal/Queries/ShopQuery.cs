@@ -21,7 +21,7 @@ namespace AnyaSpa.Dal.Queries
 
         public Shop GetShop(int id)
         {
-            const string sql = @"SELECT * FROM [Security].[Shop] WHERE Id = @Id";
+            const string sql = @"SELECT * FROM [Shops] WHERE Id = @Id";
 
             using (var connection = _connectionFactory.OpenAnyaSpaConnection())
             {
@@ -34,7 +34,7 @@ namespace AnyaSpa.Dal.Queries
 
         public IEnumerable<Shop> GetShops()
         {
-            const string sql = @"SELECT * FROM [Security].[Shop]";
+            const string sql = @"SELECT * FROM [Shops]";
 
             using (var connection = _connectionFactory.OpenAnyaSpaConnection())
             {

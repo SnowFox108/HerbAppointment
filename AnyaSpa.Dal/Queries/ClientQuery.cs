@@ -5,40 +5,40 @@ using Dapper;
 
 namespace AnyaSpa.Dal.Queries
 {
-    public interface IStaffQuery
+    public interface IClientQuery
     {
-        Staff GetStaff(int id);
-        IEnumerable<Staff> GetStaffs();
+        Client GetClient(int id);
+        IEnumerable<Client> GetClients();
     }
-    public class StaffQuery : IStaffQuery
+    public class ClientQuery : IClientQuery
     {
         private readonly IConnectionFactory _connectionFactory;
 
-        public StaffQuery(IConnectionFactory connectionFactory)
+        public ClientQuery(IConnectionFactory connectionFactory)
         {
             _connectionFactory = connectionFactory;
         }
 
-        public Staff GetStaff(int id)
+        public Client GetClient(int id)
         {
-            const string sql = @"SELECT * FROM [Staffs] WHERE Id = @Id";
+            const string sql = @"SELECT * FROM [Clients] WHERE Id = @Id";
 
             using (var connection = _connectionFactory.OpenAnyaSpaConnection())
             {
-                return connection.Query<Staff>(sql, new
+                return connection.Query<Client>(sql, new
                 {
                     Id = id
                 }).Single();
             }
         }
 
-        public IEnumerable<Staff> GetStaffs()
+        public IEnumerable<Client> GetClients()
         {
-            const string sql = @"SELECT * FROM [Staffs]";
+            const string sql = @"SELECT * FROM [Clients]";
 
             using (var connection = _connectionFactory.OpenAnyaSpaConnection())
             {
-                return connection.Query<Staff>(sql);
+                return connection.Query<Client>(sql);
             }
         }
     }
