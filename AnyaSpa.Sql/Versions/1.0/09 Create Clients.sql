@@ -10,6 +10,7 @@ GO
 
 CREATE TABLE [dbo].[Clients](
 	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[ClientType] [int] NOT NULL,
 	[FirstName] [nvarchar](50) NOT NULL,
 	[LastName] [nvarchar](50) NOT NULL,
 	[MobileNumber] [nvarchar](50) NOT NULL,

@@ -1,10 +1,12 @@
-﻿using AnyaSpa.Infrastructure.Entities;
+﻿using AnyaSpa.Dal.Enums;
+using AnyaSpa.Infrastructure.Entities;
 
 namespace AnyaSpa.Dal.Entities
 {
     public class Client : IEntity
     {
         public int Id { get; set; }
+        public ClientType ClientType { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string MobileNumber { get; set; }
