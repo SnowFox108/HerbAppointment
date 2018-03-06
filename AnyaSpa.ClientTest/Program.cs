@@ -6,11 +6,13 @@ using AnyaSpa.Dal.CommandHandlers;
 using AnyaSpa.Dal.Commands;
 using AnyaSpa.Dal.CreateQueries;
 using AnyaSpa.Dal.Mappers;
+using AnyaSpa.Dal.Queries;
 using AnyaSpa.Infrastructure.Command;
 using AutoMapper;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using NLog.Extensions.Logging;
+using AnyaSpa.Main.StaticDataCache;
 
 namespace AnyaSpa.ClientTest
 {
@@ -22,8 +24,9 @@ namespace AnyaSpa.ClientTest
                 .SetBasePath(Directory.GetCurrentDirectory())
                 .AddJsonFile("appsettings.json");
 
+
             var configuration = builder.Build();
-            var serviceProvider = BuildDi(configuration);
+            var serviceProvider = BuildDi(configuration);            
 
             serviceProvider.GetRequiredService<Runner>();
 
@@ -42,15 +45,23 @@ namespace AnyaSpa.ClientTest
             services.AddSingleton(typeof(ILogger<>), typeof(Logger<>));
             services.AddLogging((builder) => builder.SetMinimumLevel(LogLevel.Trace));
 
+            services.AddTransient<IStaticDataService, StaticDataService>();
+            services.AddTransient<IStaticDataCachingService, StaticDataCachingService>();
+
             services.AddTransient<IConfigConnection, ConfigConnection>();
             services.AddTransient<IConnectionFactory, ConnectionFactory>();
             services.AddTransient<ICommandHandler<CreateStaffCommand>, CreateStaffHandler>();
             services.AddTransient<ICreateStaffQuery, CreateStaffQuery>();
 
+            services.AddTransient<ISystemSettingQuery, SystemSettingQuery>();
+
             services.AddTransient<TestConnection>();
             services.AddAutoMapper();
 
-            var serviceProvider = services.BuildServiceProvider();
+            var serviceProvider = services
+                .AddMemoryCache()
+                .BuildServiceProvider();
+    
 
             var loggerFactory = serviceProvider.GetRequiredService<ILoggerFactory>();
 

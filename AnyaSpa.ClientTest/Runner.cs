@@ -9,8 +9,9 @@ namespace AnyaSpa.ClientTest
     {
         public Runner(TestConnection test)
         {
-            test.Read();
-            test.Insert();
+            //test.Read();
+            //test.Insert();
+            test.GetCachingService();            
         }
     }
 }

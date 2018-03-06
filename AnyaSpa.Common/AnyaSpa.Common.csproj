@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AnyaSpa.Dal\AnyaSpa.Dal.csproj" />
+    <ProjectReference Include="..\AnyaSpa.Infrastructure\AnyaSpa.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -119,3 +119,77 @@
 2018-02-21 17:20:44.5516 Warn Failed loading config from D:\Sample\HerbAppointment\AnyaSpa.ClientTest\bin\Debug\netcoreapp2.0\NLog.config. Invalid XML?
 2018-02-21 17:20:44.5617 Info Found 32 configuration items
 2018-02-21 17:20:44.5617 Info Found 32 configuration items
+2018-03-06 14:58:06.5653 Info Message Template Auto Format enabled
+2018-03-06 14:58:06.6572 Info Adding target File Target[allfile]
+2018-03-06 14:58:06.6572 Info Adding target Null Target[blackhole]
+2018-03-06 14:58:06.7467 Error Parsing configuration from D:\Sample\HerbAppointment\AnyaSpa.ClientTest\bin\Debug\netcoreapp2.0\NLog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing D:\Sample\HerbAppointment\AnyaSpa.ClientTest\bin\Debug\netcoreapp2.0\NLog.config.  ---> NLog.NLogConfigurationException: Target ownFile-web not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-03-06 14:58:06.7467 Warn Failed loading config from D:\Sample\HerbAppointment\AnyaSpa.ClientTest\bin\Debug\netcoreapp2.0\NLog.config. Invalid XML?
+2018-03-06 14:58:06.7566 Info Found 32 configuration items
+2018-03-06 14:58:06.7566 Info Found 32 configuration items
+2018-03-06 15:06:58.4181 Info Message Template Auto Format enabled
+2018-03-06 15:06:58.5118 Info Adding target File Target[allfile]
+2018-03-06 15:06:58.5118 Info Adding target Null Target[blackhole]
+2018-03-06 15:06:58.5865 Error Parsing configuration from D:\Sample\HerbAppointment\AnyaSpa.ClientTest\bin\Debug\netcoreapp2.0\NLog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing D:\Sample\HerbAppointment\AnyaSpa.ClientTest\bin\Debug\netcoreapp2.0\NLog.config.  ---> NLog.NLogConfigurationException: Target ownFile-web not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-03-06 15:06:58.5865 Warn Failed loading config from D:\Sample\HerbAppointment\AnyaSpa.ClientTest\bin\Debug\netcoreapp2.0\NLog.config. Invalid XML?
+2018-03-06 15:06:58.5865 Info Found 32 configuration items
+2018-03-06 15:06:58.6104 Info Found 32 configuration items
+2018-03-06 15:09:13.1151 Info Message Template Auto Format enabled
+2018-03-06 15:09:13.1886 Info Adding target File Target[allfile]
+2018-03-06 15:09:13.1886 Info Adding target Null Target[blackhole]
+2018-03-06 15:09:13.2403 Error Parsing configuration from D:\Sample\HerbAppointment\AnyaSpa.ClientTest\bin\Debug\netcoreapp2.0\NLog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing D:\Sample\HerbAppointment\AnyaSpa.ClientTest\bin\Debug\netcoreapp2.0\NLog.config.  ---> NLog.NLogConfigurationException: Target ownFile-web not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-03-06 15:09:13.2403 Warn Failed loading config from D:\Sample\HerbAppointment\AnyaSpa.ClientTest\bin\Debug\netcoreapp2.0\NLog.config. Invalid XML?
+2018-03-06 15:09:13.2403 Info Found 32 configuration items
+2018-03-06 15:09:13.2596 Info Found 32 configuration items
+2018-03-06 15:10:02.7712 Info Message Template Auto Format enabled
+2018-03-06 15:10:02.8620 Info Adding target File Target[allfile]
+2018-03-06 15:10:02.8648 Info Adding target Null Target[blackhole]
+2018-03-06 15:10:02.9128 Error Parsing configuration from D:\Sample\HerbAppointment\AnyaSpa.ClientTest\bin\Debug\netcoreapp2.0\NLog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing D:\Sample\HerbAppointment\AnyaSpa.ClientTest\bin\Debug\netcoreapp2.0\NLog.config.  ---> NLog.NLogConfigurationException: Target ownFile-web not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-03-06 15:10:02.9128 Warn Failed loading config from D:\Sample\HerbAppointment\AnyaSpa.ClientTest\bin\Debug\netcoreapp2.0\NLog.config. Invalid XML?
+2018-03-06 15:10:02.9128 Info Found 32 configuration items
+2018-03-06 15:10:02.9367 Info Found 32 configuration items
+2018-03-06 15:10:08.3224 Info Shutting down logging...
+2018-03-06 15:10:08.3882 Info Logger has been shut down.
+2018-03-06 15:10:31.1286 Info Message Template Auto Format enabled
+2018-03-06 15:10:31.2066 Info Adding target File Target[allfile]
+2018-03-06 15:10:31.2087 Info Adding target Null Target[blackhole]
+2018-03-06 15:10:31.2634 Error Parsing configuration from D:\Sample\HerbAppointment\AnyaSpa.ClientTest\bin\Debug\netcoreapp2.0\NLog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing D:\Sample\HerbAppointment\AnyaSpa.ClientTest\bin\Debug\netcoreapp2.0\NLog.config.  ---> NLog.NLogConfigurationException: Target ownFile-web not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-03-06 15:10:31.2634 Warn Failed loading config from D:\Sample\HerbAppointment\AnyaSpa.ClientTest\bin\Debug\netcoreapp2.0\NLog.config. Invalid XML?
+2018-03-06 15:10:31.2761 Info Found 32 configuration items
+2018-03-06 15:10:31.2863 Info Found 32 configuration items
+2018-03-06 15:12:27.8110 Info Message Template Auto Format enabled
+2018-03-06 15:12:27.8922 Info Adding target File Target[allfile]
+2018-03-06 15:12:27.8922 Info Adding target Null Target[blackhole]
+2018-03-06 15:12:27.9393 Error Parsing configuration from D:\Sample\HerbAppointment\AnyaSpa.ClientTest\bin\Debug\netcoreapp2.0\NLog.config failed. Exception: NLog.NLogConfigurationException: Exception when parsing D:\Sample\HerbAppointment\AnyaSpa.ClientTest\bin\Debug\netcoreapp2.0\NLog.config.  ---> NLog.NLogConfigurationException: Target ownFile-web not found.
+   at NLog.Config.XmlLoggingConfiguration.ParseLoggerElement(NLogXmlElement loggerElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseRulesElement(NLogXmlElement rulesElement, IList`1 rulesCollection)
+   at NLog.Config.XmlLoggingConfiguration.ParseNLogElement(NLogXmlElement nlogElement, String filePath, Boolean autoReloadDefault)
+   at NLog.Config.XmlLoggingConfiguration.Initialize(XmlReader reader, String fileName, Boolean ignoreErrors)
+   --- End of inner exception stack trace ---
+2018-03-06 15:12:27.9393 Warn Failed loading config from D:\Sample\HerbAppointment\AnyaSpa.ClientTest\bin\Debug\netcoreapp2.0\NLog.config. Invalid XML?
+2018-03-06 15:12:27.9486 Info Found 32 configuration items
+2018-03-06 15:12:27.9486 Info Found 32 configuration items

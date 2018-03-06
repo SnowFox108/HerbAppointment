@@ -1,12 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using AnyaSpa.Dal;
-using AnyaSpa.Dal.CommandHandlers;
 using AnyaSpa.Dal.Commands;
-using AnyaSpa.Dal.CreateQueries;
 using AnyaSpa.Dal.Queries;
 using AnyaSpa.Infrastructure.Command;
+using AnyaSpa.Main.StaticDataCache;
 using Microsoft.Extensions.Logging;
 
 
@@ -17,12 +14,16 @@ namespace AnyaSpa.ClientTest
         private readonly IConfigConnection _configConnection;
         private readonly ICommandHandler<CreateStaffCommand> _commandHandler;
         private readonly ILogger<TestConnection> _logger;
+        private readonly IStaticDataCachingService _staticDataCachingService;
         public TestConnection(IConfigConnection configConnection, 
-            ICommandHandler<CreateStaffCommand> commandHandler, ILogger<TestConnection> logger)
+            ICommandHandler<CreateStaffCommand> commandHandler, 
+            ILogger<TestConnection> logger, 
+            IStaticDataCachingService staticDataCachingService)
         {
             _configConnection = configConnection;
             _commandHandler = commandHandler;
             _logger = logger;
+            _staticDataCachingService = staticDataCachingService;
         }
 
         public void Read()
@@ -69,6 +70,12 @@ namespace AnyaSpa.ClientTest
             {
                 Console.WriteLine($"Name: {staff.FirstName} {staff.LastName} Email: {staff.Email} Create: {staff.StartDate}");
             }
+        }
+
+        public void GetCachingService()
+        {
+            var result = _staticDataCachingService.SystemSettings();
+            Console.WriteLine($"Value Test: {result.Test}");
         }
     }
 }
