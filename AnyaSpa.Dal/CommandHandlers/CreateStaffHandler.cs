@@ -9,19 +9,19 @@ namespace AnyaSpa.Dal.CommandHandlers
     public class CreateStaffHandler : ICommandHandler<CreateStaffCommand>
     {
         private readonly IMapper _mapper;
-        private readonly ICreateStaffQuery _createStaff;
+        private readonly ICreateStaffQuery _createStaffQuery;
 
         public CreateStaffHandler(
-            ICreateStaffQuery createStaff, 
+            ICreateStaffQuery createStaffQuery, 
             IMapper mapper)
         {
-            _createStaff = createStaff;
+            _createStaffQuery = createStaffQuery;
             _mapper = mapper;
         }
 
         public ICommandResult Execute(CreateStaffCommand command)
         {
-            return new CommandResult(_createStaff.Execute(_mapper.Map<Staff>(command)) > 0);
+            return new CommandResult(_createStaffQuery.Execute(_mapper.Map<Staff>(command)) > 0);
         }
     }
 }
